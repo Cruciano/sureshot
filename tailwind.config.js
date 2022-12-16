@@ -11,6 +11,9 @@ module.exports = {
         'pink-dark': '#943455',
         'black': '#1E152A',
       },
+      boxShadow: {
+        'sh-pink': '0 0 30px rgba(148, 52, 85, 0.2)',
+      }
     },
   },
   plugins: [],
