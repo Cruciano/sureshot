@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sureshot/static/css/main.313149fb.css",
+    "main.js": "/sureshot/static/js/main.a18e51a7.js",
+    "index.html": "/sureshot/index.html",
+    "main.313149fb.css.map": "/sureshot/static/css/main.313149fb.css.map",
+    "main.a18e51a7.js.map": "/sureshot/static/js/main.a18e51a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.313149fb.css",
+    "static/js/main.a18e51a7.js"
+  ]
+}
