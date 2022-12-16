@@ -1,5 +1,6 @@
 {
   "name": "sureshot",
+  "homepage": "https://cruciano.github.io/sureshot/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
