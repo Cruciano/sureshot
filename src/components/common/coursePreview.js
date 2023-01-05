@@ -11,7 +11,7 @@ const CoursePreview = ({ name, image, author, description, link }) => {
           alt="course"
         />
         <div className="px-4 py-3 flex flex-col">
-          <h4 className="text-pink-dark"><a>{author}</a></h4>
+          <h4 className="text-pink-dark">{author}</h4>
           <h3 className="text-2xl font-semibold py-2">{name}</h3>
           <p>{description}</p>
           <Button className="self-end my-2 mr-3">
