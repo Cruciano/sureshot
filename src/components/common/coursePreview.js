@@ -1,9 +1,10 @@
 import React from 'react';
 import Button from "./button";
+import { Link } from "react-router-dom";
 
-const CoursePreview = ({ name, image, author, description, link }) => {
+const CoursePreview = ({ id, name, image, author, description, link }) => {
   return (
-    <a href={link}>
+    <Link to={`/course/${id}`}>
       <div className="bg-white rounded-2xl overflow-hidden shadow-sh-pink">
         <img
           className="h-[300px] w-full object-cover"
@@ -19,7 +20,7 @@ const CoursePreview = ({ name, image, author, description, link }) => {
           </Button>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 

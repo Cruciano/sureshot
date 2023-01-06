@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../components/layout";
 
-const Profile = () => {
+const ProfilePage = () => {
   return (
     <Layout>
       <div className='h-full'>
@@ -11,4 +11,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default ProfilePage;

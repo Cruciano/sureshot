@@ -1,13 +1,15 @@
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import Profile from "./pages/profile";
+import HomePage from "./pages/homePage";
+import ProfilePage from "./pages/profilePage";
+import CoursePage from "./pages/coursePage";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/course/:courseId" element={<CoursePage />} />
       </Routes>
     </Router>
   );

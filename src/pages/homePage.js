@@ -4,7 +4,7 @@ import CoursePreview from "../components/common/coursePreview";
 import { getAllCourses } from "../api/courses";
 import mapCourseToProps from "../utils/mappers/courses";
 
-const Home = () => {
+const HomePage = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -34,4 +34,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

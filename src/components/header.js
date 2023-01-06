@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="bg-pink text-white px-8 font-xl flex justify-between items-center h-[65px]">
       <h2 className="text-xl ml-8">
-        <a href="/">Sure<span className="font-semibold">Shot</span></a>
+        <Link to='/'>Sure<span className="font-semibold">Shot</span></Link>
       </h2>
       <nav className="mr-20 flex items-center gap-x-6 relative">
         <Link to='/'>Home</Link>
